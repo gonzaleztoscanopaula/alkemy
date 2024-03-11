@@ -25,7 +25,7 @@ class Libro(Producto):
         self.autor = autor
 
     def mostrarProducto(self):
-        return print(f"La categoria del libro es {self.categoria}, su precio es {self.precio}, la cantidad en stock disponible es {self.cantidadEnStock}, el nombre del libro es {self.nombre}, el autor de la obra es {self.autor}")
+       return print(f"La categoria del libro es {self.categoria}, su precio es {self.precio}, la cantidad en stock disponible es {self.cantidadEnStock}, el nombre del libro es {self.nombre}, el autor de la obra es {self.autor}")
 
     
 class Pelicula(Producto):
@@ -37,7 +37,7 @@ class Pelicula(Producto):
         self.sagas = sagas
 
     def mostrarProducto(self):
-        return print(f"La categoria de la película es {self.categoria}, su precio es {self.precio}, la cantidad en stock disponible es {self.cantidadEnStock}, el nombre dela película es {self.nombre}, el genero de la pelicula es {self.genero}, y existen {self.sagas} pelicula de la saga.")
+       return print(f"La categoria de la película es {self.categoria}, su precio es {self.precio}, la cantidad en stock disponible es {self.cantidadEnStock}, el nombre dela película es {self.nombre}, el genero de la pelicula es {self.genero}, y existen {self.sagas} pelicula de la saga.")
     
 class Disco(Producto):
 
@@ -48,7 +48,7 @@ class Disco(Producto):
         self.año = año
 
     def mostrarProducto(self):
-        return print(f"La categoria de la música es {self.categoria}, su precio es {self.precio}, la cantidad en stock disponible es {self.cantidadEnStock}, el artista del disco es {self.artista}, el genero de la cancion es {self.genero}, y el año del lanzamiento {self.año}")
+       return print(f"La categoria de la música es {self.categoria}, su precio es {self.precio}, la cantidad en stock disponible es {self.cantidadEnStock}, el artista del disco es {self.artista}, el genero de la cancion es {self.genero}, y el año del lanzamiento {self.año}")
 
 
 
@@ -58,8 +58,8 @@ libro3 = Libro("Suspenso", 18.50, 25, "El Código Da Vinci", "Dan Brown")
 
 
 pelicula1 = Pelicula("Acción", 15.50, 100, "Matrix", "Ciencia Ficción", "3")
-pelicula2 = Pelicula("Comedia", 12.99, 80, "Mi Pobre Angelito", "Comedia", 6)
-pelicula3 = Pelicula("Drama", 17.50, 40, "Forrest Gump", "Drama", 0)
+pelicula2 = Pelicula("Comedia", 12.99, 80, "Mi Pobre Angelito", "Comedia", "6")
+pelicula3 = Pelicula("Drama", 17.50, 40, "Forrest Gump", "Drama", "0")
 
 
 disco1 = Disco("Rock", 12.99, 30, "Queen", "Rock", 1980)
@@ -67,13 +67,12 @@ disco2 = Disco("Pop", 14.99, 50, "Michael Jackson", "Pop", 1982)
 disco3 = Disco("Electrónica", 19.99, 20, "Daft Punk", "Electrónica", 2001)
 
 
-
-
-
-
-
-
-
-print (libro1.mostrarProducto())
-print (pelicula1.mostrarProducto())
-print (disco1.mostrarProducto())
+(libro1.mostrarProducto())
+(libro2.mostrarProducto())
+(libro3.mostrarProducto())
+(pelicula1.mostrarProducto())
+(pelicula2.mostrarProducto())
+(pelicula3.mostrarProducto())
+(disco1.mostrarProducto())
+(disco2.mostrarProducto())
+(disco3.mostrarProducto())
