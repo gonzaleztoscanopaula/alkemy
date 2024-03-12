@@ -64,7 +64,15 @@ empleado8 = EmpAComision("320000008", "Diego", "Fernandez", 2017, "A Comisión",
 empleado9 = EmpSalarioFijo("320000009", "Elena", "Diaz", 2016, "Salario Fijo", 2300)
 empleado10 = EmpSalarioFijo("320000010", "Lucas", "Molina", 2015, "Salario Fijo", 2400)
 
-print(f"DNI: {empleado1.dni}, Nombre: {empleado1.nombre} {empleado1.apellido}, Tipo de Contrato: {empleado1.tipoContrato}, Salario: {empleado1.calcularSalario()}")
-print(f"DNI: {empleado2.dni}, Nombre: {empleado2.nombre} {empleado2.apellido}, Tipo de Contrato: {empleado2.tipoContrato}, Salario: {empleado2.calcularSalario()}")
-print(f"DNI: {empleado3.dni}, Nombre: {empleado3.nombre} {empleado3.apellido}, Tipo de Contrato: {empleado3.tipoContrato}, Salario: {empleado3.calcularSalario()}")
-print(f"DNI: {empleado4.dni}, Nombre: {empleado4.nombre} {empleado4.apellido}, Tipo de Contrato: {empleado4.tipoContrato}, Salario: {empleado4.calcularSalario()}")
+empleado1.mostrarSalario()
+empleado2.mostrarSalario()
+empleado3.mostrarSalario()
+empleado4.mostrarSalario()
+empleado5.mostrarSalario()
+empleado6.mostrarSalario()
+empleado7.mostrarSalario()
+empleado8.mostrarSalario()
+empleado9.mostrarSalario()
+empleado10.mostrarSalario()
+
+
